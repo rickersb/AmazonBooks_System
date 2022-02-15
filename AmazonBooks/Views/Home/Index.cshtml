@@ -1,0 +1,32 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+    ViewBag.Calc = 20 / 5;
+}
+@model BooksViewModel
+
+<div>
+
+    <h1 class="display-4">Books</h1>
+
+    @foreach (Book b in Model.Books)
+    {
+<div class="border border-dark col">
+    <h3>@b.Title</h3>
+    <ul class="list-unstyled">
+        <li>Author: @b.Author</li>
+        <li>Publisher: @b.Publisher</li>
+        <li>ISBN: @b.Isbn</li>
+        <li>Classification: @b.Classification</li>
+        <li>Category: @b.Category</li>
+        <li>Page Count: @b.PageCount</li>
+        <li>Price: @b.Price</li>
+    </ul>
+</div>
+    <br />
+            }
+
+    <br />
+        <p>Page Number</p>
+        <div page-model="@Model.PageInfo" page-action="Index"></div>
+
+    </div>
