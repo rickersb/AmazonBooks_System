@@ -76,3 +76,4 @@
 /Users/ben/Projects/AmazonBooks/AmazonBooks/obj/Debug/netcoreapp3.1/AmazonBooks.dll
 /Users/ben/Projects/AmazonBooks/AmazonBooks/obj/Debug/netcoreapp3.1/AmazonBooks.pdb
 /Users/ben/Projects/AmazonBooks/AmazonBooks/obj/Debug/netcoreapp3.1/AmazonBooks.genruntimeconfig.cache
+/Users/ben/Projects/AmazonBooks/AmazonBooks/bin/Debug/netcoreapp3.1/mono_crash.11a67480d0.0.json
