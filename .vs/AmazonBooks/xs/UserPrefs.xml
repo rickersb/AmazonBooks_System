@@ -1,15 +1,43 @@
 ﻿<Properties StartupConfiguration="{C6FEB438-5A49-4B7D-B44B-DF24830A1C68}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="AmazonBooks/Components/TypesViewComponent.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="AmazonBooks/Views/Shared/ProjectSummary.cshtml">
     <Files>
-      <File FileName="AmazonBooks/appsettings.json" Line="1" Column="1" />
-      <File FileName="AmazonBooks/appsettings.Development.json" Line="1" Column="1" />
-      <File FileName="AmazonBooks/Components/TypesViewComponent.cs" Line="1" Column="1" />
+      <File FileName="AmazonBooks/Pages/Cart.cshtml" Line="25" Column="18" />
+      <File FileName="AmazonBooks/Views/Home/Index.cshtml" Line="1" Column="1" />
+      <File FileName="AmazonBooks/Models/ViewModels/BooksViewModel.cs" Line="1" Column="1" />
+      <File FileName="AmazonBooks/Models/ViewModels/PageInfo.cs" Line="1" Column="1" />
+      <File FileName="AmazonBooks/Models/Basket.cs" Line="1" Column="1" />
+      <File FileName="AmazonBooks/Models/IBookstoreRepository.cs" Line="1" Column="1" />
+      <File FileName="AmazonBooks/Pages/_CartLayout.cshtml" Line="1" Column="1" />
+      <File FileName="AmazonBooks/Pages/_ViewImports.cshtml" Line="1" Column="1" />
+      <File FileName="AmazonBooks/Pages/_ViewStart.cshtml" Line="1" Column="1" />
+      <File FileName="AmazonBooks/Views/Shared/ProjectSummary.cshtml" Line="21" Column="38" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="AmazonBooks" expanded="True">
-            <Node name="AmazonBooks" expanded="True" />
+            <Node name="AmazonBooks" expanded="True">
+              <Node name="Components" expanded="True" />
+              <Node name="Controllers" expanded="True" />
+              <Node name="Infrastructure" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="ViewModels" expanded="True" />
+              </Node>
+              <Node name="Pages" expanded="True">
+                <Node name="Cart.cshtml" expanded="True" />
+              </Node>
+              <Node name="Properties" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Home" expanded="True" />
+                <Node name="Shared" expanded="True">
+                  <Node name="Components" expanded="True">
+                    <Node name="Types" expanded="True" />
+                  </Node>
+                  <Node name="ProjectSummary.cshtml" selected="True" />
+                </Node>
+              </Node>
+              <Node name="appsettings.json" expanded="True" />
+            </Node>
           </Node>
         </State>
       </Pad>
