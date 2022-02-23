@@ -1,31 +1,15 @@
 ﻿<Properties StartupConfiguration="{C6FEB438-5A49-4B7D-B44B-DF24830A1C68}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="AmazonBooks/appsettings.json">
+  <MonoDevelop.Ide.Workbench ActiveDocument="AmazonBooks/Components/TypesViewComponent.cs">
     <Files>
-      <File FileName="AmazonBooks/Models/EFBookstoreRepository.cs" Line="1" Column="1" />
-      <File FileName="AmazonBooks/Models/ErrorViewModel.cs" />
-      <File FileName="AmazonBooks/Models/ViewModels/PageInfo.cs" />
-      <File FileName="AmazonBooks/Controllers/HomeController.cs" />
-      <File FileName="AmazonBooks/Infrastructure/PaginationTagHelper.cs" />
-      <File FileName="AmazonBooks/Models/ViewModels/BooksViewModel.cs" />
       <File FileName="AmazonBooks/appsettings.json" Line="1" Column="1" />
+      <File FileName="AmazonBooks/appsettings.Development.json" Line="1" Column="1" />
+      <File FileName="AmazonBooks/Components/TypesViewComponent.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="AmazonBooks" expanded="True">
-            <Node name="AmazonBooks" expanded="True">
-              <Node name="Controllers" expanded="True" />
-              <Node name="Infrastructure" expanded="True" />
-              <Node name="Models" expanded="True">
-                <Node name="ViewModels" expanded="True" />
-              </Node>
-              <Node name="Views" expanded="True">
-                <Node name="Home" expanded="True" />
-                <Node name="Shared" expanded="True" />
-              </Node>
-              <Node name="wwwroot" expanded="True" />
-              <Node name="appsettings.json" selected="True" />
-            </Node>
+            <Node name="AmazonBooks" expanded="True" />
           </Node>
         </State>
       </Pad>

@@ -77,3 +77,9 @@
 /Users/ben/Projects/AmazonBooks/AmazonBooks/obj/Debug/netcoreapp3.1/AmazonBooks.pdb
 /Users/ben/Projects/AmazonBooks/AmazonBooks/obj/Debug/netcoreapp3.1/AmazonBooks.genruntimeconfig.cache
 /Users/ben/Projects/AmazonBooks/AmazonBooks/bin/Debug/netcoreapp3.1/mono_crash.11a67480d0.0.json
+/Users/ben/Projects/AmazonBooks/AmazonBooks/obj/Debug/netcoreapp3.1/Razor/Views/Shared/ProjectSummary.cshtml.g.cs
+/Users/ben/Projects/AmazonBooks/AmazonBooks/obj/Debug/netcoreapp3.1/Razor/Views/Shared/Components/Types/Default.cshtml.g.cs
+/Users/ben/Projects/AmazonBooks/AmazonBooks/obj/Debug/netcoreapp3.1/Razor/Pages/Cart.cshtml.g.cs
+/Users/ben/Projects/AmazonBooks/AmazonBooks/obj/Debug/netcoreapp3.1/Razor/Pages/_CartLayout.cshtml.g.cs
+/Users/ben/Projects/AmazonBooks/AmazonBooks/obj/Debug/netcoreapp3.1/Razor/Pages/_ViewImports.cshtml.g.cs
+/Users/ben/Projects/AmazonBooks/AmazonBooks/obj/Debug/netcoreapp3.1/Razor/Pages/_ViewStart.cshtml.g.cs
