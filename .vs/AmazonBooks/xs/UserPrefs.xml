@@ -1,16 +1,25 @@
 ﻿<Properties StartupConfiguration="{C6FEB438-5A49-4B7D-B44B-DF24830A1C68}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="AmazonBooks/Views/Shared/ProjectSummary.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="AmazonBooks/Pages/Cart.cshtml.cs">
     <Files>
-      <File FileName="AmazonBooks/Pages/Cart.cshtml" Line="25" Column="18" />
+      <File FileName="AmazonBooks/Startup.cs" Line="65" Column="25" />
+      <File FileName="AmazonBooks/Views/Shared/Components/Types/Default.cshtml" Line="16" Column="101" />
       <File FileName="AmazonBooks/Views/Home/Index.cshtml" Line="1" Column="1" />
+      <File FileName="AmazonBooks/Views/Shared/_Layout.cshtml" Line="1" Column="1" />
+      <File FileName="AmazonBooks/Program.cs" Line="15" Column="10" />
       <File FileName="AmazonBooks/Models/ViewModels/BooksViewModel.cs" Line="1" Column="1" />
-      <File FileName="AmazonBooks/Models/ViewModels/PageInfo.cs" Line="1" Column="1" />
-      <File FileName="AmazonBooks/Models/Basket.cs" Line="1" Column="1" />
+      <File FileName="AmazonBooks/Controllers/HomeController.cs" Line="1" Column="1" />
+      <File FileName="AmazonBooks/Views/Home/Privacy.cshtml" Line="1" Column="1" />
+      <File FileName="AmazonBooks/Pages/Cart.cshtml" Line="1" Column="1" />
       <File FileName="AmazonBooks/Models/IBookstoreRepository.cs" Line="1" Column="1" />
-      <File FileName="AmazonBooks/Pages/_CartLayout.cshtml" Line="1" Column="1" />
-      <File FileName="AmazonBooks/Pages/_ViewImports.cshtml" Line="1" Column="1" />
-      <File FileName="AmazonBooks/Pages/_ViewStart.cshtml" Line="1" Column="1" />
-      <File FileName="AmazonBooks/Views/Shared/ProjectSummary.cshtml" Line="21" Column="38" />
+      <File FileName="AmazonBooks/Models/ErrorViewModel.cs" Line="1" Column="1" />
+      <File FileName="AmazonBooks/Models/EFBookstoreRepository.cs" Line="1" Column="1" />
+      <File FileName="AmazonBooks/Models/BookstoreContext.cs" Line="1" Column="1" />
+      <File FileName="AmazonBooks/Models/Book.cs" Line="1" Column="1" />
+      <File FileName="AmazonBooks/Models/Basket.cs" Line="1" Column="1" />
+      <File FileName="AmazonBooks/Infrastructure/PaginationTagHelper.cs" Line="1" Column="1" />
+      <File FileName="AmazonBooks/Infrastructure/SessionExtensions.cs" Line="24" Column="1" />
+      <File FileName="AmazonBooks/Infrastructure/UrlExtensions.cs" Line="10" Column="8" />
+      <File FileName="AmazonBooks/Pages/Cart.cshtml.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -24,7 +33,9 @@
                 <Node name="ViewModels" expanded="True" />
               </Node>
               <Node name="Pages" expanded="True">
-                <Node name="Cart.cshtml" expanded="True" />
+                <Node name="Cart.cshtml" expanded="True">
+                  <Node name="Cart.cshtml.cs" selected="True" />
+                </Node>
               </Node>
               <Node name="Properties" expanded="True" />
               <Node name="Views" expanded="True">
@@ -33,7 +44,6 @@
                   <Node name="Components" expanded="True">
                     <Node name="Types" expanded="True" />
                   </Node>
-                  <Node name="ProjectSummary.cshtml" selected="True" />
                 </Node>
               </Node>
               <Node name="appsettings.json" expanded="True" />
