@@ -1,17 +1,25 @@
 ﻿<Properties StartupConfiguration="{C6FEB438-5A49-4B7D-B44B-DF24830A1C68}|Default">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="AmazonBooks/Models/Purchases.cs">
+    <Files>
+      <File FileName="AmazonBooks/Pages/Cart.cshtml" Line="50" Column="38" />
+      <File FileName="AmazonBooks/Pages/Cart.cshtml.cs" Line="19" Column="46" />
+      <File FileName="AmazonBooks/Models/Basket.cs" Line="40" Column="1" />
+      <File FileName="AmazonBooks/Models/SessionBasket.cs" Line="18" Column="38" />
+      <File FileName="AmazonBooks/Startup.cs" Line="46" Column="76" />
+      <File FileName="AmazonBooks/Infrastructure/SessionExtensions.cs" Line="13" Column="69" />
+      <File FileName="AmazonBooks/Pages/_CartLayout.cshtml" Line="1" Column="1" />
+      <File FileName="AmazonBooks/Models/Purchases.cs" Line="9" Column="1" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="AmazonBooks" expanded="True">
             <Node name="AmazonBooks" expanded="True">
               <Node name="Components" expanded="True" />
-              <Node name="Controllers" expanded="True">
-                <Node name="HomeController.cs" selected="True" />
-              </Node>
+              <Node name="Controllers" expanded="True" />
               <Node name="Infrastructure" expanded="True" />
               <Node name="Models" expanded="True">
-                <Node name="ViewModels" expanded="True" />
+                <Node name="Purchases.cs" selected="True" />
               </Node>
               <Node name="Pages" expanded="True">
                 <Node name="Cart.cshtml" expanded="True" />
