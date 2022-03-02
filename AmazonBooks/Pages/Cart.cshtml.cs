@@ -11,7 +11,7 @@ namespace AmazonBooks.Pages
 {
     public class CartModel : PageModel
     {
-        private int projectId;
+        //private int projectId;
 
         private IBookstoreRepository repo { get; set; }
 

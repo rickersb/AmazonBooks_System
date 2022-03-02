@@ -1206,7 +1206,7 @@
       "outputPath": "/Users/ben/Projects/AmazonBooks/AmazonBooks/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/ben/.config/NuGet/NuGet.Config"
+        "/Users/ben/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"

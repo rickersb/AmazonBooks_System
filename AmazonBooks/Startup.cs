@@ -36,6 +36,7 @@ namespace AmazonBooks
             });
 
             services.AddScoped<IBookstoreRepository, EFBookstoreRepository>();
+            services.AddScoped<iPurchaseRepository, EFPurchaseRepository>();
 
             services.AddRazorPages();
 

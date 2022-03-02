@@ -83,3 +83,5 @@
 /Users/ben/Projects/AmazonBooks/AmazonBooks/obj/Debug/netcoreapp3.1/Razor/Pages/_CartLayout.cshtml.g.cs
 /Users/ben/Projects/AmazonBooks/AmazonBooks/obj/Debug/netcoreapp3.1/Razor/Pages/_ViewImports.cshtml.g.cs
 /Users/ben/Projects/AmazonBooks/AmazonBooks/obj/Debug/netcoreapp3.1/Razor/Pages/_ViewStart.cshtml.g.cs
+/Users/ben/Projects/AmazonBooks/AmazonBooks/obj/Debug/netcoreapp3.1/Razor/Views/Purchase/Checkout.cshtml.g.cs
+/Users/ben/Projects/AmazonBooks/AmazonBooks/obj/Debug/netcoreapp3.1/Razor/Pages/PurchaseComplete.cshtml.g.cs
