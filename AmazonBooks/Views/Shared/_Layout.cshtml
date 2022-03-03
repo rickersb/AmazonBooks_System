@@ -6,8 +6,12 @@
     <title>@ViewData["Title"] - AmazonBooks</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
+    <link href="/lib/font-awesome/css/all.min.css" rel="stylesheet" />
 </head>
 <body>
+
+    
+
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container">
@@ -21,37 +25,44 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
-                        
+
 
                     </ul>
                 </div>
             </div>
         </nav>
-    </header>
-    <div class="row m-1 p-1">
+        <!-- code along with other blocks in other folders for cart logo
+        <div class="col-6 text-right" id="cart-summary">
+            <vc:cart-summary></vc:cart-summary>
+        </div>
+            -->
+        </header>
+        <div class="row m-1 p-1">
 
-        <div class="col-3" id="types">
-            <vc:types></vc:types>
+
+            <div class="col-3" id="types">
+                <vc:types></vc:types>
+            </div>
+
+
+            <div class="col-9">
+                <main role="main" class="pb-3">
+                    @RenderBody()
+                </main>
+            </div>
+
+
+
         </div>
 
-        <div class="col-9">
-            <main role="main" class="pb-3">
-                @RenderBody()
-            </main>
-        </div>
-        
-
-
-    </div>
-
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2022 - AmazonBooks - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-        </div>
-    </footer>
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
-    @RenderSection("Scripts", required: false)
-</body>
-</html>
+        <footer class="border-top footer text-muted">
+            <div class="container">
+                &copy; 2022 - AmazonBooks - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            </div>
+        </footer>
+        <script src="~/lib/jquery/dist/jquery.min.js"></script>
+        <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="~/js/site.js" asp-append-version="true"></script>
+        @RenderSection("Scripts", required: false)
+    </body>
+    </html>

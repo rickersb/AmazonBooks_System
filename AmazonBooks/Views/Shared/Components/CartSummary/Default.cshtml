@@ -1,0 +1,29 @@
+﻿@page
+@{
+}
+
+@model AmazonBooks.Pages.CartModel
+<div class="">
+
+    <!--code for cart-->
+    <small class="navbar-text">
+        <b>Your cart:</b>
+
+        @Model.basket.CalculateTotal().ToString("c")
+    </small>
+
+    <a class="btn btn-sm btn-secondary navbar-btn" asp-page="/Cart"
+       asp-route-returnurl="@ViewContext.HttpContext.Request.PathAndQuery()">
+        <i class="fa fa-shopping-cart"></i>
+    </a>
+</div>
+
+<!-- 
+foreach (var b in Model.basket.Items)
+{
+    <tr>
+        <td>b.Book.Title</td>
+        <td>b.Quantity</td>
+        <td>$b.Book.Price</td>
+        <td>$(b.Quantity * b.Book.Price)</td>
+-->
