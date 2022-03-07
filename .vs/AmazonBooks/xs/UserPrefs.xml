@@ -1,42 +1,15 @@
 ﻿<Properties StartupConfiguration="{C6FEB438-5A49-4B7D-B44B-DF24830A1C68}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="AmazonBooks/Views/Shared/_Layout.cshtml">
-    <Files>
-      <File FileName="AmazonBooks/Views/Shared/_Layout.cshtml" Line="5" Column="21" />
-      <File FileName="AmazonBooks/Components/CartSummaryViewComponent.cs" />
-      <File FileName="AmazonBooks/Views/Shared/Components/CartSummary/Default.cshtml" />
-      <File FileName="AmazonBooks/Models/Book.cs" />
-      <File FileName="AmazonBooks/Models/Basket.cs" />
-      <File FileName="AmazonBooks/Pages/Cart.cshtml" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="AmazonBooks" expanded="True">
             <Node name="AmazonBooks" expanded="True">
               <Node name="Components" expanded="True" />
-              <Node name="Controllers" expanded="True" />
-              <Node name="Infrastructure" expanded="True" />
-              <Node name="Migrations" expanded="True">
-                <Node name="20220301234804_PurchasesTable.cs" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="EFBookstoreRepository.cs" selected="True" />
               </Node>
-              <Node name="Models" expanded="True" />
-              <Node name="Pages" expanded="True">
-                <Node name="Cart.cshtml" expanded="True" />
-              </Node>
-              <Node name="Properties" expanded="True" />
-              <Node name="Views" expanded="True">
-                <Node name="Purchase" expanded="True" />
-                <Node name="Shared" expanded="True">
-                  <Node name="Components" expanded="True">
-                    <Node name="CartSummary" expanded="True" />
-                  </Node>
-                  <Node name="_Layout.cshtml" selected="True" />
-                </Node>
-              </Node>
-              <Node name="wwwroot" expanded="True">
-                <Node name="lib" expanded="True" />
-              </Node>
-              <Node name="appsettings.json" expanded="True" />
+              <Node name="Pages" expanded="True" />
             </Node>
           </Node>
         </State>
