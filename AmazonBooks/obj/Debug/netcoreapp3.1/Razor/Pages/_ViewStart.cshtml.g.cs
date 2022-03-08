@@ -13,14 +13,14 @@ namespace AmazonBooks.Pages
     using Microsoft.AspNetCore.Mvc.Rendering;
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
 #nullable restore
-#line 3 "/Users/ben/Projects/AmazonBooks/AmazonBooks/Pages/_ViewImports.cshtml"
+#line 4 "/Users/ben/Projects/AmazonBooks/AmazonBooks/Pages/_ViewImports.cshtml"
 using AmazonBooks.Models;
 
 #line default
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"85ab35bed5392514cd21859d853f8fb6a7bcc360", @"/Pages/_ViewStart.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"1ed311bc2624efed401fa6a2b2b75f583783f561", @"/Pages/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"ecd3a5f57dc1be856f62f9017eb4964d560433d3", @"/Pages/_ViewImports.cshtml")]
     public class Pages__ViewStart : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998

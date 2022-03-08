@@ -13,14 +13,14 @@ namespace AmazonBooks.Pages
     using Microsoft.AspNetCore.Mvc.Rendering;
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
 #nullable restore
-#line 3 "/Users/ben/Projects/AmazonBooks/AmazonBooks/Pages/_ViewImports.cshtml"
+#line 4 "/Users/ben/Projects/AmazonBooks/AmazonBooks/Pages/_ViewImports.cshtml"
 using AmazonBooks.Models;
 
 #line default
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"10e402e185f08666d9233f36f21ccaa2489bd7f7", @"/Pages/_CartLayout.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"1ed311bc2624efed401fa6a2b2b75f583783f561", @"/Pages/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"ecd3a5f57dc1be856f62f9017eb4964d560433d3", @"/Pages/_ViewImports.cshtml")]
     public class Pages__CartLayout : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("rel", new global::Microsoft.AspNetCore.Html.HtmlString("stylesheet"), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);

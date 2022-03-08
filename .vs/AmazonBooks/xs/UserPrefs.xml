@@ -1,15 +1,26 @@
 ﻿<Properties StartupConfiguration="{C6FEB438-5A49-4B7D-B44B-DF24830A1C68}|Default">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="AmazonBooks/Startup.cs">
+    <Files>
+      <File FileName="AmazonBooks/Pages/Admin/Purchases.razor" Line="5" Column="1" />
+      <File FileName="AmazonBooks/Pages/Admin/Routed.razor" Line="11" Column="10" />
+      <File FileName="AmazonBooks/Pages/Admin/AdminLayout.razor" Line="16" Column="18" />
+      <File FileName="AmazonBooks/Pages/Admin/Index.cshtml" Line="16" Column="8" />
+      <File FileName="AmazonBooks/Pages/Admin/_Imports.razor" Line="8" Column="26" />
+      <File FileName="AmazonBooks/Startup.cs" Line="1" Column="1" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="AmazonBooks" expanded="True">
             <Node name="AmazonBooks" expanded="True">
-              <Node name="Components" expanded="True" />
-              <Node name="Models" expanded="True">
-                <Node name="EFBookstoreRepository.cs" selected="True" />
+              <Node name="Migrations" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Pages" expanded="True">
+                <Node name="Admin" expanded="True" />
+                <Node name="Cart.cshtml" expanded="True" />
               </Node>
-              <Node name="Pages" expanded="True" />
+              <Node name="Views" expanded="True" />
+              <Node name="Startup.cs" selected="True" />
             </Node>
           </Node>
         </State>
