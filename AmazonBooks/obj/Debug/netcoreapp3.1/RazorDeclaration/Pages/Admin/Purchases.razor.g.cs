@@ -54,13 +54,48 @@ using AmazonBooks.Models;
 #line hidden
 #nullable disable
     [Microsoft.AspNetCore.Components.RouteAttribute("/admin/purchases")]
-    public partial class Purchases : Microsoft.AspNetCore.Components.ComponentBase
+    public partial class Purchases : OwningComponentBase<iPurchaseRepository>
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
         {
         }
         #pragma warning restore 1998
+#nullable restore
+#line 14 "/Users/ben/Projects/AmazonBooks/AmazonBooks/Pages/Admin/Purchases.razor"
+      
+    public iPurchaseRepository repo => Service;
+
+    public IEnumerable<AmazonBooks.Models.Purchases> AllPurchases { get; set; }
+    public IEnumerable<AmazonBooks.Models.Purchases> UncollectedPayments { get; set; }
+    public IEnumerable<AmazonBooks.Models.Purchases> CollectedPayments { get; set; }
+
+
+    protected async override Task OnInitializedAsync()
+    {
+        await UpdateData();
+    }
+    public async Task UpdateData()
+    {
+        AllPurchases = await repo.Purchases.ToListAsync();
+        UncollectedPayments = AllPurchases.Where(x => !x.PurchaseReceived);
+        CollectedPayments = AllPurchases.Where(x => x.PurchaseReceived);
+    }
+
+    public void CollectPayment(int id) => UpdatePayment(id, true);
+    public void ResetPayment(int id) => UpdatePayment(id, false);
+
+    private void UpdatePayment(int id, bool purchased)
+    {
+        AmazonBooks.Models.Purchases p = repo.Purchases.FirstOrDefault(x => x.PurchaseId == id);
+        p.PurchaseReceived = purchased;
+        repo.SavePurchase(p);
+    }
+
+
+#line default
+#line hidden
+#nullable disable
     }
 }
 #pragma warning restore 1591

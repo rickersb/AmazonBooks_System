@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace AmazonBooks.Pages.Admin
+namespace AmazonBooks.Pages.Admin.IndexModel
 {
     public class IndexModel : PageModel
     {

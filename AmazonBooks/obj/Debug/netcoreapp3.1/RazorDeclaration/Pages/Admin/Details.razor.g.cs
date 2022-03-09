@@ -53,9 +53,8 @@ using AmazonBooks.Models;
 #line default
 #line hidden
 #nullable disable
-    [Microsoft.AspNetCore.Components.RouteAttribute("/admin/books")]
-    [Microsoft.AspNetCore.Components.RouteAttribute("/admin")]
-    public partial class Books : OwningComponentBase<IBookstoreRepository>
+    [Microsoft.AspNetCore.Components.RouteAttribute("/admin/books/details/{id:long}")]
+    public partial class Details : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
@@ -63,30 +62,22 @@ using AmazonBooks.Models;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 49 "/Users/ben/Projects/AmazonBooks/AmazonBooks/Pages/Admin/Books.razor"
+#line 21 "/Users/ben/Projects/AmazonBooks/AmazonBooks/Pages/Admin/Details.razor"
        
+    [Inject]
+    public IBookstoreRepository repo { get; set; }
 
-    public IBookstoreRepository repo => Service;
+    [Parameter]
+    public long id { get; set; }
 
-    public IEnumerable<Book> BookData { get; set; }
+    public Book book { get; set; }
 
-    protected async override Task OnInitializedAsync()
+    protected override void OnParametersSet()
     {
-        await UpdateData();
+        book = repo.Books.FirstOrDefault(x => x.BookId == id);
     }
-    public string GetDetailsUrl(long id) => $"/admin/books/details/{id}";
-    public string GetEditUrl(long id) => $"/admin/books/edit/{id}";
-    public async Task RemoveBook (Book b)
-    {
-        repo.DeleteBook(b);
-        await UpdateData();
 
-    }
-    public async Task UpdateData()
-    {
-        BookData = await repo.Books.ToListAsync();
-
-    }
+    public string EditUrl => $"/admin/books/edit/{book.BookId}";
 
 
 #line default

@@ -36,6 +36,9 @@ namespace AmazonBooks.Models
         
         public string ZipCode { get; set; }
 
+        [BindNever]
+        public bool PurchaseReceived { get; set; }
+
 
     }
 }

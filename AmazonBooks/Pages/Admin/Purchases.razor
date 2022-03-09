@@ -1,8 +1,43 @@
 ﻿@page "/admin/purchases"
 
 
-<h3>Purchases</h3>
 
-@code {
-    
+@inherits OwningComponentBase<iPurchaseRepository>
+
+
+<PurchaseTable TableTitle="Uncollected Payment" Purchases="UncollectedPayments" ButtonLabel="Collected" PurchaseSelected="CollectPayment"></PurchaseTable>
+
+<PurchaseTable TableTitle="Collected Payment" Purchases="CollectedPayments" ButtonLabel="Reset" PurchaseSelected="ResetPayment"></PurchaseTable>
+
+<button class="btn btn-info" @onclick="@(x=>UpdateData())">Refresh Data</button>
+
+@code{
+    public iPurchaseRepository repo => Service;
+
+    public IEnumerable<AmazonBooks.Models.Purchases> AllPurchases { get; set; }
+    public IEnumerable<AmazonBooks.Models.Purchases> UncollectedPayments { get; set; }
+    public IEnumerable<AmazonBooks.Models.Purchases> CollectedPayments { get; set; }
+
+
+    protected async override Task OnInitializedAsync()
+    {
+        await UpdateData();
+    }
+    public async Task UpdateData()
+    {
+        AllPurchases = await repo.Purchases.ToListAsync();
+        UncollectedPayments = AllPurchases.Where(x => !x.PurchaseReceived);
+        CollectedPayments = AllPurchases.Where(x => x.PurchaseReceived);
+    }
+
+    public void CollectPayment(int id) => UpdatePayment(id, true);
+    public void ResetPayment(int id) => UpdatePayment(id, false);
+
+    private void UpdatePayment(int id, bool purchased)
+    {
+        AmazonBooks.Models.Purchases p = repo.Purchases.FirstOrDefault(x => x.PurchaseId == id);
+        p.PurchaseReceived = purchased;
+        repo.SavePurchase(p);
+    }
+
 }

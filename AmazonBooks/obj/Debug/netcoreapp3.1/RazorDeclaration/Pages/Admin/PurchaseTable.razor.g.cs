@@ -53,9 +53,7 @@ using AmazonBooks.Models;
 #line default
 #line hidden
 #nullable disable
-    [Microsoft.AspNetCore.Components.RouteAttribute("/admin/books")]
-    [Microsoft.AspNetCore.Components.RouteAttribute("/admin")]
-    public partial class Books : OwningComponentBase<IBookstoreRepository>
+    public partial class PurchaseTable : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
@@ -63,30 +61,20 @@ using AmazonBooks.Models;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 49 "/Users/ben/Projects/AmazonBooks/AmazonBooks/Pages/Admin/Books.razor"
+#line 50 "/Users/ben/Projects/AmazonBooks/AmazonBooks/Pages/Admin/PurchaseTable.razor"
        
 
-    public IBookstoreRepository repo => Service;
+    [Parameter]
+    public string TableTitle { get; set; } = "Purchases";
 
-    public IEnumerable<Book> BookData { get; set; }
+    [Parameter]
+    public IEnumerable<AmazonBooks.Models.Purchases> Purchases { get; set;}
 
-    protected async override Task OnInitializedAsync()
-    {
-        await UpdateData();
-    }
-    public string GetDetailsUrl(long id) => $"/admin/books/details/{id}";
-    public string GetEditUrl(long id) => $"/admin/books/edit/{id}";
-    public async Task RemoveBook (Book b)
-    {
-        repo.DeleteBook(b);
-        await UpdateData();
+    [Parameter]
+    public string ButtonLabel { get; set; } = "Collected";
 
-    }
-    public async Task UpdateData()
-    {
-        BookData = await repo.Books.ToListAsync();
-
-    }
+    [Parameter]
+    public EventCallback<int> PurchaseSelected { get; set; }
 
 
 #line default

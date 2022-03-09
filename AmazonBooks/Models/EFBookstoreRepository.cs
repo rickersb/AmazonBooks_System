@@ -13,7 +13,7 @@ namespace AmazonBooks.Models
         }
         public IQueryable<Book> Books => context.Books;
 
-        /*
+        
         public void SaveBook(Book b)
         {
             
@@ -30,6 +30,6 @@ namespace AmazonBooks.Models
         {
             context.Remove(b);
             context.SaveChanges();
-        }*/
+        }
     }
 }
