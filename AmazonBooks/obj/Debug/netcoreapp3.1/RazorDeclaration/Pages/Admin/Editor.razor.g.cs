@@ -53,9 +53,9 @@ using AmazonBooks.Models;
 #line default
 #line hidden
 #nullable disable
-    [Microsoft.AspNetCore.Components.RouteAttribute("/admin/books")]
-    [Microsoft.AspNetCore.Components.RouteAttribute("/admin")]
-    public partial class Books : OwningComponentBase<IBookstoreRepository>
+    [Microsoft.AspNetCore.Components.RouteAttribute("/admin/books/edit/{id:long}")]
+    [Microsoft.AspNetCore.Components.RouteAttribute("/admin/books/create")]
+    public partial class Editor : OwningComponentBase<IBookstoreRepository>
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
@@ -63,30 +63,43 @@ using AmazonBooks.Models;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 56 "/Users/ben/Projects/AmazonBooks/AmazonBooks/Pages/Admin/Books.razor"
+#line 119 "/Users/ben/Projects/AmazonBooks/AmazonBooks/Pages/Admin/Editor.razor"
        
+
+    [Parameter]
+    public long Id { get; set; } = 0;
+
+    public string ThemeColor => Id == 0 ? "primary" : "warning";
+    public string TitleText => Id == 0 ? "Add" : "Edit";
+
+    public Book b { get; set; } = new Book();
 
     public IBookstoreRepository repo => Service;
 
-    public IEnumerable<Book> BookData { get; set; }
-
-    protected async override Task OnInitializedAsync()
+    protected override void OnParametersSet()
     {
-        await UpdateData();
+        if (Id != 0)
+        {
+            b = repo.Books.FirstOrDefault(x => x.BookId == Id);
+        }
     }
-    public string GetDetailsUrl(long id) => $"/admin/books/details/{id}";
-    public string GetEditUrl(long id) => $"/admin/books/edit/{id}";
-    public async Task RemoveBook (Book b)
-    {
-        repo.DeleteBook(b);
-        await UpdateData();
 
-    }
-    public async Task UpdateData()
+    public void SaveBook()
     {
-        BookData = await repo.Books.ToListAsync();
-
+        if (Id == 0)
+        {
+            repo.CreateBook(b);
+        }
+        else
+        {
+            repo.SaveBook(b);
+        }
+        NavManager.NavigateTo("/admin/books");
     }
+
+    [Inject]
+    public NavigationManager NavManager { get; set; }
+
 
 
 #line default

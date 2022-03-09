@@ -1,10 +1,17 @@
 ﻿<Properties StartupConfiguration="{C6FEB438-5A49-4B7D-B44B-DF24830A1C68}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="AmazonBooks/Pages/Admin/Details.razor">
+  <MonoDevelop.Ide.Workbench ActiveDocument="AmazonBooks/Pages/Admin/Index.cshtml">
     <Files>
-      <File FileName="AmazonBooks/Pages/Admin/Books.razor" Line="65" Column="1" />
+      <File FileName="AmazonBooks/Pages/Admin/Books.razor" Line="6" Column="79" />
       <File FileName="AmazonBooks/Models/IBookstoreRepository.cs" Line="10" Column="38" />
       <File FileName="AmazonBooks/Models/EFBookstoreRepository.cs" Line="5" Column="2" />
-      <File FileName="AmazonBooks/Pages/Admin/Details.razor" Line="1" Column="2" />
+      <File FileName="AmazonBooks/Pages/Admin/Details.razor" Line="15" Column="13" />
+      <File FileName="AmazonBooks/Pages/Admin/AdminLayout.razor" Line="1" Column="1" />
+      <File FileName="AmazonBooks/Pages/Admin/_Imports.razor" Line="1" Column="1" />
+      <File FileName="AmazonBooks/Pages/Admin/Editor.razor" Line="15" Column="88" />
+      <File FileName="AmazonBooks/Models/Book.cs" Line="32" Column="1" />
+      <File FileName="AmazonBooks/Pages/Admin/Purchases.razor" Line="13" Column="1" />
+      <File FileName="AmazonBooks/Program.cs" Line="17" Column="10" />
+      <File FileName="AmazonBooks/Pages/Admin/Index.cshtml" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -15,7 +22,7 @@
               <Node name="Models" expanded="True" />
               <Node name="Pages" expanded="True">
                 <Node name="Admin" expanded="True">
-                  <Node name="Details.razor" selected="True" />
+                  <Node name="Index.cshtml" selected="True" />
                 </Node>
                 <Node name="Cart.cshtml" expanded="True" />
               </Node>
@@ -34,7 +41,9 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.AmazonBooks PreferredExecutionTarget="/Applications/Brave Browser.app" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/ben/Projects/AmazonBooks/AmazonBooks/Pages/Admin/Editor.razor" relfile="AmazonBooks/Pages/Admin/Editor.razor" line="112" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>
