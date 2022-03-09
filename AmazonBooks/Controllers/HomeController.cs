@@ -8,6 +8,9 @@ using Microsoft.Extensions.Logging;
 using AmazonBooks.Models;
 using AmazonBooks.Models.ViewModels;
 
+//Bootstrap: added class="badge badge-pill badge-primary" for publisher on the homepage
+//Bootstrap2: added a banner to the customer in the navbar
+
 namespace AmazonBooks.Controllers
 {
     public class HomeController : Controller

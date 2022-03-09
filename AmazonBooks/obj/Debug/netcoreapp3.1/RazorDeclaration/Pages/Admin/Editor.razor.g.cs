@@ -63,7 +63,7 @@ using AmazonBooks.Models;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 119 "/Users/ben/Projects/AmazonBooks/AmazonBooks/Pages/Admin/Editor.razor"
+#line 118 "/Users/ben/Projects/AmazonBooks/AmazonBooks/Pages/Admin/Editor.razor"
        
 
     [Parameter]

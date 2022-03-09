@@ -12,7 +12,7 @@
 
 <h3 class="bg-@ThemeColor text-white text-center p-1">@TitleText a Book</h3>
 
-//something janky is happening with my edit form but it fixed when I added a second one
+<!--something janky is happening with my edit form but it fixed when I added a second one-->
 <EditForm Model="b" OnValidSubmit="SaveBook">
     <DataAnnotationsValidator></DataAnnotationsValidator>
 
@@ -107,8 +107,7 @@
             <InputText class="form-control" @bind-Value="b.Publisher"></InputText>
         </div>
 
-        <button type="submit" class="btn btn-@ThemeColor">Save</button>
-        <NavLink class="btn btn-secondary" href="/admin/books">Cancel</NavLink>
+        
     }
 
     <button type="submit" class="btn btn-@ThemeColor">Save</button>

@@ -111,3 +111,4 @@
 /Users/ben/Projects/AmazonBooks/AmazonBooks/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/Details.razor.g.cs
 /Users/ben/Projects/AmazonBooks/AmazonBooks/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/Admin/Editor.razor.g.cs
 /Users/ben/Projects/AmazonBooks/AmazonBooks/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/Editor.razor.g.cs
+/Users/ben/Projects/AmazonBooks/AmazonBooks/bin/Debug/netcoreapp3.1/mono_crash.11a67480d0.1.json
