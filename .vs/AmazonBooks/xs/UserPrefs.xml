@@ -1,7 +1,7 @@
 ﻿<Properties StartupConfiguration="{C6FEB438-5A49-4B7D-B44B-DF24830A1C68}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="AmazonBooks/Pages/Admin/Editor.razor">
     <Files>
-      <File FileName="AmazonBooks/Pages/Admin/Editor.razor" Line="15" Column="93" />
+      <File FileName="AmazonBooks/Pages/Admin/Editor.razor" Line="67" Column="9" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
