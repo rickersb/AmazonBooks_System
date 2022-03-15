@@ -1,7 +1,8 @@
 ﻿<Properties StartupConfiguration="{C6FEB438-5A49-4B7D-B44B-DF24830A1C68}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="AmazonBooks/Models/IdentitySeedData.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="AmazonBooks/Pages/Admin/AdminLayout.razor">
     <Files>
-      <File FileName="AmazonBooks/Models/IdentitySeedData.cs" Line="10" Column="15" />
+      <File FileName="AmazonBooks/Models/IdentitySeedData.cs" Line="13" Column="47" />
+      <File FileName="AmazonBooks/Pages/Admin/AdminLayout.razor" Line="10" Column="81" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -15,7 +16,9 @@
                 <Node name="ViewModels" expanded="True" />
               </Node>
               <Node name="Pages" expanded="True">
-                <Node name="Admin" expanded="True" />
+                <Node name="Admin" expanded="True">
+                  <Node name="AdminLayout.razor" selected="True" />
+                </Node>
                 <Node name="Cart.cshtml" expanded="True" />
               </Node>
               <Node name="Views" expanded="True">
@@ -28,7 +31,6 @@
               <Node name="wwwroot" expanded="True">
                 <Node name="lib" expanded="True" />
               </Node>
-              <Node name="Bookstore.sqlite" selected="True" />
             </Node>
           </Node>
         </State>
