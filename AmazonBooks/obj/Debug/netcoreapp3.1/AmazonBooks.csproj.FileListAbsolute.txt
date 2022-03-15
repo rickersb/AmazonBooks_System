@@ -112,3 +112,9 @@
 /Users/ben/Projects/AmazonBooks/AmazonBooks/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/Admin/Editor.razor.g.cs
 /Users/ben/Projects/AmazonBooks/AmazonBooks/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/Editor.razor.g.cs
 /Users/ben/Projects/AmazonBooks/AmazonBooks/bin/Debug/netcoreapp3.1/mono_crash.11a67480d0.1.json
+/Users/ben/Projects/AmazonBooks/AmazonBooks/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Cryptography.Internal.dll
+/Users/ben/Projects/AmazonBooks/AmazonBooks/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+/Users/ben/Projects/AmazonBooks/AmazonBooks/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+/Users/ben/Projects/AmazonBooks/AmazonBooks/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Identity.Core.dll
+/Users/ben/Projects/AmazonBooks/AmazonBooks/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Identity.Stores.dll
+/Users/ben/Projects/AmazonBooks/AmazonBooks/obj/Debug/netcoreapp3.1/Razor/Views/Account/Login.cshtml.g.cs

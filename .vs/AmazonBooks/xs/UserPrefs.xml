@@ -1,7 +1,7 @@
 ﻿<Properties StartupConfiguration="{C6FEB438-5A49-4B7D-B44B-DF24830A1C68}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="AmazonBooks/Pages/Admin/Editor.razor">
+  <MonoDevelop.Ide.Workbench ActiveDocument="AmazonBooks/Models/IdentitySeedData.cs">
     <Files>
-      <File FileName="AmazonBooks/Pages/Admin/Editor.razor" Line="67" Column="9" />
+      <File FileName="AmazonBooks/Models/IdentitySeedData.cs" Line="10" Column="15" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -11,22 +11,24 @@
               <Node name="Components" expanded="True" />
               <Node name="Controllers" expanded="True" />
               <Node name="Migrations" expanded="True" />
-              <Node name="Models" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="ViewModels" expanded="True" />
+              </Node>
               <Node name="Pages" expanded="True">
-                <Node name="Admin" expanded="True">
-                  <Node name="Editor.razor" selected="True" />
-                </Node>
+                <Node name="Admin" expanded="True" />
                 <Node name="Cart.cshtml" expanded="True" />
               </Node>
               <Node name="Views" expanded="True">
+                <Node name="Account" expanded="True" />
                 <Node name="Home" expanded="True" />
-                <Node name="Purchase" expanded="True" />
                 <Node name="Shared" expanded="True">
-                  <Node name="Components" expanded="True">
-                    <Node name="Types" expanded="True" />
-                  </Node>
+                  <Node name="Components" expanded="True" />
                 </Node>
               </Node>
+              <Node name="wwwroot" expanded="True">
+                <Node name="lib" expanded="True" />
+              </Node>
+              <Node name="Bookstore.sqlite" selected="True" />
             </Node>
           </Node>
         </State>

@@ -8,8 +8,10 @@ using Microsoft.Extensions.Logging;
 using AmazonBooks.Models;
 using AmazonBooks.Models.ViewModels;
 
-//Bootstrap: added class="badge badge-pill badge-primary" for publisher on the homepage
-//Bootstrap2: added a banner to the customer in the navbar
+//Bootstrap1: styled the login form on the loginform view to be more unique. Added some rounded borders too.
+//Bootstrap2: on the admin layout page I made it so that the log out button stays at the top left of the page no matter how far you scroll down
+
+
 
 namespace AmazonBooks.Controllers
 {
