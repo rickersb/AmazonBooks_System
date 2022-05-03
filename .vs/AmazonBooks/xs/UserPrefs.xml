@@ -1,38 +1,13 @@
 ﻿<Properties StartupConfiguration="{C6FEB438-5A49-4B7D-B44B-DF24830A1C68}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="AmazonBooks/Pages/Admin/AdminLayout.razor">
+  <MonoDevelop.Ide.Workbench ActiveDocument="../mission4-movies/mission4-movies/Views/Home/EnterMovies.cshtml">
     <Files>
-      <File FileName="AmazonBooks/Models/IdentitySeedData.cs" Line="13" Column="47" />
-      <File FileName="AmazonBooks/Pages/Admin/AdminLayout.razor" Line="10" Column="81" />
+      <File FileName="../mission4-movies/mission4-movies/Views/Home/EnterMovies.cshtml" Line="1" Column="1" />
+      <File FileName="../mission4-movies/mission4-movies/Views/Home/MovieList.cshtml" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="AmazonBooks" expanded="True">
-            <Node name="AmazonBooks" expanded="True">
-              <Node name="Components" expanded="True" />
-              <Node name="Controllers" expanded="True" />
-              <Node name="Migrations" expanded="True" />
-              <Node name="Models" expanded="True">
-                <Node name="ViewModels" expanded="True" />
-              </Node>
-              <Node name="Pages" expanded="True">
-                <Node name="Admin" expanded="True">
-                  <Node name="AdminLayout.razor" selected="True" />
-                </Node>
-                <Node name="Cart.cshtml" expanded="True" />
-              </Node>
-              <Node name="Views" expanded="True">
-                <Node name="Account" expanded="True" />
-                <Node name="Home" expanded="True" />
-                <Node name="Shared" expanded="True">
-                  <Node name="Components" expanded="True" />
-                </Node>
-              </Node>
-              <Node name="wwwroot" expanded="True">
-                <Node name="lib" expanded="True" />
-              </Node>
-            </Node>
-          </Node>
+          <Node name="AmazonBooks" expanded="True" selected="True" />
         </State>
       </Pad>
     </Pads>
